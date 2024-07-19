@@ -1,0 +1,29 @@
+User Story 1: As a new user, I want to be able to register an account so that I can save my preferences and charging history.
+Acceptance Criteria: Users can input their name, email, and password to register, and upon successful registration, receive a confirmation email.
+
+User Story 2: As a registered user, I want to be able to log into my account so that I can access and manage my personal information.
+Acceptance Criteria: Users can log in using their email and password, and upon successful login, access their homepage.
+
+User Story 3: As a registered user, I want to be able to edit my car model and driving information, including battery capacity, maximum charging speed, and connector type, so that I can receive more accurate charging time and cost estimates.
+Acceptance Criteria: Users can edit and save their car and driving information on their homepage.
+
+User Story 4: As an EV user, I want the system to automatically locate my current position so that I can quickly find nearby charging stations.
+Acceptance Criteria: The system automatically retrieves and displays the user's current location on the map.
+
+User Story 5: As an EV user, I want to search and view nearby charging stations so that I can choose a suitable one for charging.
+Acceptance Criteria: Users can see a list and map markers of charging stations around their current location.
+
+User Story 6: As an EV user, I want to view detailed information about charging stations, including location, connector type, number of connectors, fault status, charging speed, current real-time availability, price, and charging station ID, so that I can choose the most suitable charging station.
+Acceptance Criteria: Users can click on a map marker or list item to view detailed information about the charging station.
+
+User Story 7: As an EV user, I want the system to estimate the time needed to reach the charging station based on my current location so that I can plan my trip efficiently.
+Acceptance Criteria: The system displays the estimated travel time from the user's current location to the selected charging station.
+
+User Story 8: As an EV user, I want to input my current and desired battery levels and, based on my car type, receive an estimate of the charging time and cost upon arrival, so that I can choose the best charging option.
+Acceptance Criteria: After inputting current and desired battery levels, the system displays the estimated charging time and cost and provides 3-5 charging station options.
+
+User Story 9: As an EV user, I want the system to record my charging choices and behavior so that it can provide personalized recommendations the next time I use it.
+Acceptance Criteria: The system records the user's charging station choices, charging time, cost, and other behavior data.
+
+User Story 10: As an EV user, I want the system to analyze my preferences (e.g., preference for distance, cost, or a combination) so that it can provide personalized charging station recommendations.
+Acceptance Criteria: The system analyzes user data and preferences and recommends the most suitable charging stations.
