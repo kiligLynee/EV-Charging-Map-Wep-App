@@ -1,0 +1,15 @@
+.marker-icon{
+  width: 100px;
+  height: 100px;
+}
+.fix-side-bar::-webkit-scrollbar {      /* Chrome, Safari, and Opera */
+  display: none;
+}
+.rotate-icon {
+  transition: transform 0.5s ease; /* 添加过渡效果 */
+  transform: rotate(0deg); /* 初始状态不旋转 */
+}
+
+.rotate-180 {
+  transform: rotate(180deg); /* 旋转180度 */
+}

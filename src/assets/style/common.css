@@ -1,0 +1,43 @@
+.gradient-button-r, .gradient-button-l{
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: '0 2px 4px rgba(0,0,0,.12), 0 0 6px rgba(0,0,0,.04)';
+  color: white;
+  transition: transform 0.3s ease;
+}
+.gradient-button-r{
+  background-image: linear-gradient(to right, #87e3c0, #aae8d0);
+}
+.gradient-button-l{
+  background-image: linear-gradient(to left, #87e3c0, #aae8d0);
+}
+
+.gradient-button-r:hover, .gradient-button-l:hover {
+  transform: scale(1.05);
+}
+
+.gradient-button-radial-scale,.gradient-button-radial {
+  border: none;
+  cursor: pointer;
+  color: white;
+  transition: transform 0.3s ease;
+  background-image: radial-gradient(circle at center, #87e3c0, #aae8d0);
+  box-shadow: '0 2px 4px rgba(0,0,0,.12), 0 0 6px rgba(0,0,0,.04)'
+}
+.gradient-button-radial-scale{
+  background-image: radial-gradient(circle at center, #87e3c0, #aae8d0);
+}
+.gradient-button-radial {
+  background-image: radial-gradient(circle at center, #87e3c0, #aae8d0);
+}
+
+.gradient-button-radial-scale:hover {
+  transform: scale(1.05);
+}
+.rotate-btn{
+  transition: transform 0.3s ease;
+}
+.rotate-btn:hover {
+  transform: rotate(180deg);
+}
